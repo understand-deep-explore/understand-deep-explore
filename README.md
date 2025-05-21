@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 ![](https://github.com/images/mona-whisper.gif)
 
-### GitHub Stats
+### GitHub Stats ⭐️
 
 <table>
   <tbody>
@@ -40,7 +40,7 @@ Here are some ideas to get you started:
   </tbody>
 </table>
 
-### Contribution Snake
+### Contribution Snake 🐍
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/understand-deep-explore/understand-deep-explore/main/assets/github-contribution-grid-snake-dark.svg">
