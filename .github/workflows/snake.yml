@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # 允许 Actions 推送代码
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,5 +27,6 @@ jobs:
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v9
         with:
-          branch: main
           message: "Generate Contribution Snake"
+          default_author: github_actions
+          push: true  # 允许自动推送更改
